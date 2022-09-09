@@ -10,10 +10,35 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
 function ComenzarIngreso () 
 {
  	//definicion de variables
- 	var edadIngresada;
- 	var sexoIngresado;
- 	var estadoCivilIngresado;
+ 	let edad;
+ 	let sexo;
+ 	let estadoCivil;
+    let sueldoBruto;
+    let numeroDeLegajo;
+    let nacionalidad;
+    const = numero;
 
+    edad=parseInt(prompt("ingrese una edad valida"));
+
+
+    while(edad >= 18 || edad <= 90){
+            edad;
+        }
+        if(sexo == "M"){
+         sexo= "masculino";   //PARA MASCULINO
+        }
+        else(sexo == "F"){
+         sexo= "femenino";
+        }
+
+    }   
+
+    document.getElementById("txtIdEdad").value= edad;
+    document.getElementById("txtIdSexo").value= sexo;
+    document.getElementById("txtIdEstadoCivil").value= estadoCivil;
+    document.getElementById("txtIdSueldo").value= sueldoBruto;
+    document.getElementById("txtIdLegajo").value= numeroDeLegajo;
+    document.getElementById("txtIdNacionalidad").value= nacionalidad;
 
 
 }
